@@ -1,0 +1,5 @@
+
+Task1:lern Python
+Task2:practice Python
+Task3:build some thing new using it
+Task Completed!
