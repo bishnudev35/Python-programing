@@ -1,0 +1,13 @@
+# Write a program that asks the user to enter a number and handles: 
+# 1.ValueError if the input is not a number
+# 2.ZeroDivisionError if you try to divide by zero
+
+n=input("Enter a number : ")
+try:
+    n=int(n)
+    c=2/n
+except ValueError as e:
+    print("dont try to bad type cast",e)
+except ZeroDivisionError as e:
+    print("divide by 0 not possible",e)
+
