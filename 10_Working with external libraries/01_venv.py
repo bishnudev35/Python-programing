@@ -1,0 +1,1 @@
+#".\env2\Scripts\Activate.ps1"(to activate env2)
