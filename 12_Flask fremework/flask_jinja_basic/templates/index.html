@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flsk jinja template</title>
+</head>
+<body>
+    <!-- <ul>
+        
+        <li>The marks of John: {{marks['John']}}</li>
+        <li>The marks of Sourav: {{marks['Sourav']}}</li>
+    </ul> -->
+    <ul>
+        {% for name, score in marks.items() %}
+            <li>The marks of {{ name }}: {{ score }}</li>
+        {% endfor %}
+    </ul>
+  
+</body>
+</html>
